@@ -1,0 +1,68 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40; /* Dark background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar-brand {
+    font-size: 1.5em; /* Brand font size */
+    color: #ffffff; /* White text */
+    text-decoration: none;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 15px; /* Space between links */
+}
+
+.navbar a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.navbar a:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #ffffff; /* Keep text white on hover */
+}
+
+.navbar .login-btn,
+.navbar .signup-btn {
+    background-color: #28a745; /* Green background for buttons */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .login-btn:hover,
+.navbar .signup-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .navbar-links {
+        flex-direction: column; /* Stack links vertically */
+        width: 100%; /* Full width */
+    }
+
+    .navbar a {
+        width: 100%; /* Full-width links */
+        padding: 10px; /* Adjust padding for mobile */
+        text-align: center; /* Center text */
+    }
+}

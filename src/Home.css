@@ -1,0 +1,67 @@
+.homepage-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.box {
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+.candidate-box {
+    border-top: 5px solid #007bff;
+}
+
+.recruiter-box {
+    border-top: 5px solid #28a745;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.box-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.candidate-box .box-button {
+    background-color: #007bff;
+}
+
+.recruiter-box .box-button {
+    background-color: #28a745;
+}
+
+.box-button:hover {
+    opacity: 0.9;
+}

@@ -1,0 +1,90 @@
+/* General Styling for Login/Signup Pages */
+.login-container,
+.signup-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Light background color for better contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.form-box {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    background: #ffffff; /* White background for the container */
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #343a40; /* Darker text color */
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ced4da; /* Lighter border color */
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease; /* Transition effect for focus */
+}
+
+input:focus {
+    border-color: #28a745; /* Green border on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    background-color: #28a745; /* Green background */
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Blue link color */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.form-footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.success-message {
+    color: green;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
